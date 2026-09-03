@@ -9,7 +9,7 @@ license: MIT
 argument-hint: "[business task or brief] [--fast] [--html] [--advice] [--ultra] [--yagni]"
 metadata:
   author: abm-dungtq
-  version: "1.0.0"
+  version: "3.0.0"
   workflow:
     follows: [vibe-storm, vibe-research, vibe-scout]
     precedes: [vibe-cook]
@@ -94,3 +94,13 @@ Pass the generated `plan.md` and phase files directly to **`vibe-cook`** for pha
 ```text
 Plan ready at ./plans/<timestamp>-<slug>/plan.md. To execute, run /vibe-cook ./plans/<timestamp>-<slug>/plan.md
 ```
+## Composable Modes
+
+- `--advice`: Runs under adversarial advisory supervision to validate timeline feasibility, resource allocation, and break-even milestones before locking phases.
+- `--ultra`: Runs a 5-perspective plan evaluation (growth hacker, unit economist, ops lead, copy chief, skeptic) to catch failure modes early.
+- `--yagni`: Strips secondary deliverables and phases that do not directly generate first cash flow.
+
+## References
+
+Load canonical phase schemas and quality checklists when structuring plans:
+- Master plan and phase file templates: `references/phase-templates.md`

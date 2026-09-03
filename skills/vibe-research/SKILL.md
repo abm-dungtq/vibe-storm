@@ -9,7 +9,7 @@ license: MIT
 argument-hint: "[market or competitor topic] [--ultra] [--yagni]"
 metadata:
   author: abm-dungtq
-  version: "1.0.0"
+  version: "3.0.0"
   workflow:
     follows: [vibe-storm]
     precedes: [vibe-scout, vibe-plan]
@@ -75,3 +75,7 @@ Persist the findings in `reports/research-{topic-slug}.md` using this canonical 
 Pass verified market findings, competitor benchmarks, and pricing recommendations directly into:
 - **`vibe-scout`**: To audit existing internal assets against market findings.
 - **`vibe-plan`**: To build the phased execution roadmap based on the validated wedge.
+## References
+
+Load operational frameworks when conducting deep market intelligence:
+- Competitor teardown models & objection queries: `references/research-frameworks.md`

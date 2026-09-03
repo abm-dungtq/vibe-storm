@@ -9,7 +9,7 @@ license: MIT
 argument-hint: "[funnel URL, business asset, or problem] [--ultra]"
 metadata:
   author: abm-dungtq
-  version: "1.0.0"
+  version: "3.0.0"
   workflow:
     follows: [vibe-storm, vibe-research]
     precedes: [vibe-plan]
@@ -83,3 +83,7 @@ Persist the findings in `reports/scout-{topic-slug}.md` using this canonical str
 ## Downstream Pipeline Handoff
 
 Pass the audited bottleneck and reusable asset inventory directly to **`vibe-plan`** to build the remediation roadmap.
+## References
+
+Load operational diagnostic checklists when auditing funnels:
+- Funnel drop-off diagnostic criteria & checklists: `references/funnel-audit.md`

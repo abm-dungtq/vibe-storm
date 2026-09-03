@@ -1,6 +1,6 @@
 ---
 description: Auto-triggers when creating a phased business execution plan, launch roadmap, or marketing schedule
-globs: *
+globs: "*"
 alwaysApply: false
 ---
 

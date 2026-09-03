@@ -98,7 +98,7 @@ Apply the contract across four core business areas:
 
 - **HTML Output Mode (`--html`):** Writes an interactive, self-contained `vibe-board.html` visual brief including contract fields, approach comparison matrix, delivery flow diagram, and copyable prompt packs.
 - **Report Mode (`--report`):** Persists durable markdown report in `./reports/` following timestamped convention `business-brief-{YYMMDD-HHmm}-{slug}.md`.
-- **Advisory Supervision (`--advice`):** Spawns `kongming` advisory persona to challenge unit economics, CAC/LTV feasibility, and scope creep before planning.
+- **Advisory Supervision (`--advice`):** Adopts an adversarial advisory persona (commercial devil's advocate) to rigorously stress-test unit economics, CAC/LTV feasibility, and scope creep before planning.
 - **Ultra Verifier Mode (`--ultra`):** Runs a best-of-5 tournament evaluating competing commercial angles with rubric scoring.
 
 ## Handoff
@@ -108,3 +108,10 @@ Pass the four contract fields, chosen direction, evidence, and unresolved risks 
 - For current asset inspection: hand off to **scout**.
 - For phased execution roadmapping: hand off to **plan**.
 - For direct execution of copy, funnels, and workflows: hand off to **cook**.
+## References
+
+Load appropriate reference when deep operational guidance is needed:
+- Operational frameworks & diagnostic models: `references/vibe-frameworks.md`
+- Pipeline handoff contracts & interfaces: `references/execution-bridge.md`
+- Standalone prompt packs for copy & campaigns: `references/standalone-prompts.md`
+- Visual dashboard layout specifications: `references/html-vibe-board.md`

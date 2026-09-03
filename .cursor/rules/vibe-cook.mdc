@@ -1,6 +1,6 @@
 ---
 description: Auto-triggers when executing a business plan, writing sales copy, building landing pages, or launching campaigns
-globs: *
+globs: "*"
 alwaysApply: false
 ---
 

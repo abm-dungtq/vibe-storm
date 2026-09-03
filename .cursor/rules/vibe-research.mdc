@@ -1,6 +1,6 @@
 ---
 description: Auto-triggers when researching competitors, market demand, customer objections, or pricing benchmarks
-globs: *
+globs: "*"
 alwaysApply: false
 ---
 

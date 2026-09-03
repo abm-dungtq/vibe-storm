@@ -9,7 +9,7 @@ license: MIT
 argument-hint: "[business task or plan path] [--interactive|--fast|--auto] [--advice] [--yagni]"
 metadata:
   author: abm-dungtq
-  version: "1.0.0"
+  version: "3.0.0"
   workflow:
     follows: [vibe-plan]
 ---
@@ -86,3 +86,12 @@ Upon completing execution, output a concise commercial launch summary:
 - **Assets Created:** File links to sales copy, landing pages, and email sequences.
 - **Payment Readiness:** Verified payment URLs and webhook status.
 - **Immediate Next Steps:** Specific list of 10 prospects to message today.
+## Composable Modes
+
+- `--advice`: Runs under advisory review at each phase checkpoint to inspect sales copy tone, pricing clarity, and checkout friction before launch.
+- `--yagni`: Challenge and cut secondary marketing collateral not needed for the core conversion goal.
+
+## References
+
+Load production recipes when cooking sales pages and email campaigns:
+- Landing page wireframes and 5-day launch email recipes: `references/execution-recipes.md`

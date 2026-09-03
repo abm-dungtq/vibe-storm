@@ -44,18 +44,24 @@ def validate_skill(skill_path):
             return False
         print(f"✓ [{skill_name}] Description length: {len(desc_text)} chars (<= 1024)")
 
-    # Check references line counts
+    # Check references line counts and verify progressive disclosure linking
     refs_dir = os.path.join(skill_path, "references")
     if os.path.exists(refs_dir):
-        for ref_file in os.listdir(refs_dir):
-            if ref_file.endswith(".md"):
-                ref_path = os.path.join(refs_dir, ref_file)
-                with open(ref_path, "r", encoding="utf-8") as rf:
-                    ref_lines = len(rf.readlines())
-                if ref_lines > 300:
-                    print(f"❌ [{skill_name}] Reference {ref_file} exceeds 300 lines ({ref_lines} lines)")
-                    return False
-                print(f"✓ [{skill_name}] Reference {ref_file}: {ref_lines} lines (< 300)")
+        ref_files = [rf for rf in os.listdir(refs_dir) if rf.endswith(".md")]
+        for ref_file in ref_files:
+            ref_path = os.path.join(refs_dir, ref_file)
+            with open(ref_path, "r", encoding="utf-8") as rf:
+                ref_lines = len(rf.readlines())
+            if ref_lines > 300:
+                print(f"❌ [{skill_name}] Reference {ref_file} exceeds 300 lines ({ref_lines} lines)")
+                return False
+            print(f"✓ [{skill_name}] Reference {ref_file}: {ref_lines} lines (< 300)")
+            
+            # Progressive disclosure check: reference file must be mentioned in SKILL.md
+            if ref_file not in content:
+                print(f"❌ [{skill_name}] Reference {ref_file} is orphaned (not mentioned in SKILL.md)")
+                return False
+            print(f"✓ [{skill_name}] Reference {ref_file} is linked in SKILL.md (Progressive Disclosure OK)")
 
     return True
 
@@ -72,7 +78,7 @@ def validate_all():
                 all_passed = False
 
     if all_passed:
-        print("\n🎉 ALL 5 SKILLS VALIDATED SUCCESSFULLY!")
+        print("\n🎉 ALL 5 SKILLS VALIDATED AND COMPLIANT WITH PROGRESSIVE DISCLOSURE!")
         return 0
     else:
         print("\n❌ SOME SKILLS FAILED VALIDATION!")

@@ -157,10 +157,10 @@
     </div>
 
     <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('biz')">💼 Business Canvas</button>
-      <button class="tab-btn" onclick="switchTab('mkt')">📣 Marketing Matrix</button>
-      <button class="tab-btn" onclick="switchTab('content')">🎬 Content Sprint</button>
-      <button class="tab-btn" onclick="switchTab('sprint')">🚀 48h Go-To-Market Sprint</button>
+      <button class="tab-btn active" onclick="switchTab(this, 'biz')">💼 Business Canvas</button>
+      <button class="tab-btn" onclick="switchTab(this, 'mkt')">📣 Marketing Matrix</button>
+      <button class="tab-btn" onclick="switchTab(this, 'content')">🎬 Content Sprint</button>
+      <button class="tab-btn" onclick="switchTab(this, 'sprint')">🚀 48h Go-To-Market Sprint</button>
     </div>
 
     <div id="biz" class="tab-content active">
@@ -185,16 +185,17 @@
   </div>
 
   <script>
-    function switchTab(id) {
+    function switchTab(btn, id) {
       document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
       document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
-      event.target.classList.add("active");
-      document.getElementById(id).classList.add("active");
+      if (btn) btn.classList.add("active");
+      const target = document.getElementById(id);
+      if (target) target.classList.add("active");
     }
 
     function copySnippet(btn) {
       const code = btn.parentElement.querySelector("pre").innerText;
-      navigator.clipboard.writeText(code).then(() => {
+      const onSuccess = () => {
         const originalText = btn.innerText;
         btn.innerText = "✓ Copied!";
         btn.style.background = "#10b981";
@@ -202,7 +203,28 @@
           btn.innerText = originalText;
           btn.style.background = "";
         }, 1500);
-      });
+      };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(code).then(onSuccess).catch(() => fallbackCopy(code, onSuccess));
+      } else {
+        fallbackCopy(code, onSuccess);
+      }
+    }
+
+    function fallbackCopy(text, cb) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand("copy");
+        if (cb) cb();
+      } catch (err) {
+        console.error("Copy failed", err);
+      }
+      document.body.removeChild(ta);
     }
 
     document.querySelectorAll(".checklist input[type='checkbox']").forEach(box => {

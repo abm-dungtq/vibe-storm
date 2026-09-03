@@ -2,6 +2,7 @@
 import os
 import sys
 import argparse
+import html
 
 def generate_html_board(title, subtitle, output_file="vibe-board.html"):
     repo_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -12,14 +13,17 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
         sys.exit(1)
 
     with open(template_path, "r", encoding="utf-8") as f:
-        html = f.read()
+        template = f.read()
+
+    safe_title = html.escape(title)
+    safe_subtitle = html.escape(subtitle)
 
     biz_content = f"""
     <div class="grid">
       <div class="card">
         <h3>🎯 The Commercial Pitch</h3>
-        <p><strong>{title}</strong></p>
-        <p style="color: var(--text-muted);">{subtitle}</p>
+        <p><strong>{safe_title}</strong></p>
+        <p style="color: var(--text-muted);">{safe_subtitle}</p>
       </div>
       <div class="card">
         <h3>💎 Grand Slam Offer</h3>
@@ -71,7 +75,7 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
     </div>
     """
 
-    sprint_content = """
+    sprint_content = f"""
     <div class="card">
       <h3>🚀 48-Hour Go-To-Market (GTM) Checklist</h3>
       <ul class="checklist">
@@ -82,20 +86,24 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
       </ul>
       <div class="prompt-box" style="margin-top: 1.5rem;">
         <button class="copy-btn" onclick="copySnippet(this)">Copy Sales Copy Prompt</button>
-        <pre>You are an expert copywriter. Write high-converting sales page copy and cold outreach DMs for: """ + title + """</pre>
+        <pre>You are an expert copywriter. Write high-converting sales page copy and cold outreach DMs for: {safe_title}</pre>
       </div>
     </div>
     """
 
-    html = html.replace("{{TITLE}}", title)
-    html = html.replace("{{SUBTITLE}}", subtitle)
-    html = html.replace("{{BIZ_CONTENT}}", biz_content)
-    html = html.replace("{{MKT_CONTENT}}", mkt_content)
-    html = html.replace("{{CONTENT_CONTENT}}", content_content)
-    html = html.replace("{{SPRINT_CONTENT}}", sprint_content)
+    output_html = template.replace("{{TITLE}}", safe_title)
+    output_html = output_html.replace("{{SUBTITLE}}", safe_subtitle)
+    output_html = output_html.replace("{{BIZ_CONTENT}}", biz_content)
+    output_html = output_html.replace("{{MKT_CONTENT}}", mkt_content)
+    output_html = output_html.replace("{{CONTENT_CONTENT}}", content_content)
+    output_html = output_html.replace("{{SPRINT_CONTENT}}", sprint_content)
+
+    out_dir = os.path.dirname(output_file)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(output_html)
 
     print(f"✓ Generated interactive Vibe Board: {output_file}")
 

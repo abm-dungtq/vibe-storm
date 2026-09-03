@@ -1,7 +1,7 @@
 {
   "name": "vibe-storm",
-  "version": "1.0.0",
-  "description": "⚡ AI-native ideation engine for solopreneurs and vibe working — Business Models, Growth Hooks, Viral Content & 48h Sprint Rollouts.",
+  "version": "3.0.0",
+  "description": "\u26a1 The Business-Grade 5-Stage Agent Pipeline for Solopreneurs & Founders: Brainstorm -> Research -> Scout -> Plan -> Cook.",
   "main": "skills/vibe-storm/SKILL.md",
   "scripts": {
     "validate": "python3 scripts/quick_validate.py",

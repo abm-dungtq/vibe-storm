@@ -1,6 +1,6 @@
 ---
 description: Auto-triggers when discussing business ideas, offers, revenue models, marketing strategies, viral content, or commercial product rollouts
-globs: *
+globs: "*"
 alwaysApply: false
 ---
 

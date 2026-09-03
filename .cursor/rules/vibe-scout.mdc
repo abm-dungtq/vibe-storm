@@ -1,6 +1,6 @@
 ---
 description: Auto-triggers when auditing marketing funnels, website traffic, conversion drop-offs, or business assets
-globs: *
+globs: "*"
 alwaysApply: false
 ---
 

@@ -1,0 +1,25 @@
+---
+description: Auto-triggers when discussing business ideas, marketing strategies, viral content, or project rollouts for vibe working
+globs: *
+alwaysApply: false
+---
+
+# Vibe Storm Rules for Cursor
+
+When the user asks for business ideas, micro-SaaS concepts, marketing strategies, viral hooks, or project roadmaps:
+
+1. **Activate the Vibe Working Contract:**
+   - Define **The Vibe Pitch**: 1-sentence value proposition (Niche + Pain Point + Transformation).
+   - Identify **The Wedge & Moat**: Hyper-specific initial entry point and unfair advantage.
+   - Establish **Anti-Scope**: What NOT to build in the MVP.
+   - Formulate a **Day-1 Smoke Test**: 24-hour test to validate willingness to pay.
+
+2. **Always Provide 4 Actionable Pillars:**
+   - **Business (--biz):** The wedge, pricing model (\$9-\$99/mo), unit economics.
+   - **Marketing (--mkt):** Growth loops, 3 angles (Pain, Dream, Contrarian), guerrilla channels.
+   - **Content (--content):** 4 content pillars, 1 insight -> 4 formats, short-form video scripts with 3-second hooks.
+   - **Sprint Rollout (--sprint):** 48-hour timeline with clear hourly milestones and coding prompts.
+
+3. **No Fluff Mandate:**
+   - Never say "market on social media" -> Specify exact subreddits, X circles, and hook copy.
+   - Never write a 20-page business plan -> Provide copyable prompt packs and sprint cards.

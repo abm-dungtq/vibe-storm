@@ -1,0 +1,31 @@
+{
+  "name": "vibe-storm",
+  "version": "1.0.0",
+  "description": "⚡ AI-native ideation engine for solopreneurs and vibe working — Business Models, Growth Hooks, Viral Content & 48h Sprint Rollouts.",
+  "main": "skills/vibe-storm/SKILL.md",
+  "scripts": {
+    "validate": "python3 scripts/quick_validate.py",
+    "generate": "python3 scripts/generate_board.py",
+    "install-skill": "bash scripts/install.sh"
+  },
+  "keywords": [
+    "vibe-working",
+    "vibe-coding",
+    "solopreneur",
+    "agent-skills",
+    "claude-skill",
+    "cursor-rules",
+    "startup-ideas",
+    "marketing-hooks"
+  ],
+  "author": "abm-dungtq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abm-dungtq/vibe-storm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abm-dungtq/vibe-storm/issues"
+  },
+  "homepage": "https://github.com/abm-dungtq/vibe-storm#readme"
+}

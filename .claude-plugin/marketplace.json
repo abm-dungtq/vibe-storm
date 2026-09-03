@@ -1,0 +1,14 @@
+{
+  "name": "vibe-storm-tools",
+  "owner": {
+    "name": "abm-dungtq",
+    "url": "https://github.com/abm-dungtq"
+  },
+  "plugins": [
+    {
+      "name": "vibe-storm",
+      "source": ".",
+      "description": "AI-native ideation engine for vibe working and solopreneurs"
+    }
+  ]
+}

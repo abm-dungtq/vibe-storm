@@ -1,0 +1,10 @@
+{
+  "name": "vibe-storm",
+  "version": "1.0.0",
+  "description": "AI-native ideation engine for vibe working, solopreneurs, and fast MVP rollouts.",
+  "author": "abm-dungtq",
+  "license": "MIT",
+  "skills": [
+    "./skills/vibe-storm"
+  ]
+}

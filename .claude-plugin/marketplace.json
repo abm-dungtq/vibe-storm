@@ -1,5 +1,5 @@
 {
-  "name": "vibe-storm-tools",
+  "name": "vibe-storm-suite",
   "owner": {
     "name": "abm-dungtq",
     "url": "https://github.com/abm-dungtq"
@@ -8,7 +8,7 @@
     {
       "name": "vibe-storm",
       "source": ".",
-      "description": "AI-native ideation engine for vibe working and solopreneurs"
+      "description": "5-stage commercial pipeline suite (vibe-storm, vibe-research, vibe-scout, vibe-plan, vibe-cook)"
     }
   ]
 }

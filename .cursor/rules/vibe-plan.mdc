@@ -1,0 +1,12 @@
+---
+description: Auto-triggers when creating a phased business execution plan, launch roadmap, or marketing schedule
+globs: *
+alwaysApply: false
+---
+
+# Vibe Plan Rules for Cursor
+
+When the user needs a structured business launch plan or marketing roadmap:
+1. Use files-first architecture: `plans/<slug>/plan.md` + `phase-01-*.md` to `phase-04-*.md`.
+2. Standard 4 phases: Phase 1 Offer & Positioning, Phase 2 Assets & Content, Phase 3 Funnel & Checkout, Phase 4 Launch & Outreach.
+3. Include tangible deliverable checklists, observable commercial verification tests, and risk scorecards.

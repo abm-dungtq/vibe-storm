@@ -1,0 +1,12 @@
+---
+description: Auto-triggers when executing a business plan, writing sales copy, building landing pages, or launching campaigns
+globs: *
+alwaysApply: false
+---
+
+# Vibe Cook Rules for Cursor
+
+When the user asks to execute a business plan or craft sales deliverables:
+1. Execute phase by phase: Offer & Value Stack -> Content & Copy Assets -> Funnel & Payment -> Launch & Outreach.
+2. Verify all deliverables on disk before marking phases completed.
+3. Produce copyable sales pages, email sequences, and outreach DMs ready for immediate launch.

@@ -1,0 +1,13 @@
+---
+description: Auto-triggers when auditing marketing funnels, website traffic, conversion drop-offs, or business assets
+globs: *
+alwaysApply: false
+---
+
+# Vibe Scout Rules for Cursor
+
+When the user asks to inspect a sales funnel, audit conversion leaks, or inventory existing assets:
+1. Map the full customer journey (Traffic -> Click -> Lead -> Sale -> Retention).
+2. Pinpoint the single biggest conversion bottleneck against industry benchmarks.
+3. Inventory reusable commercial assets (email lists, testimonials, past copy).
+4. Output findings in `reports/scout-<topic>.md`.

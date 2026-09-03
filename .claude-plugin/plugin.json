@@ -1,10 +1,14 @@
 {
   "name": "vibe-storm",
-  "version": "1.0.0",
-  "description": "AI-native ideation engine for vibe working, solopreneurs, and fast MVP rollouts.",
+  "version": "3.0.0",
+  "description": "The Business-Grade 5-Stage Agent Pipeline for Solopreneurs & Founders: Brainstorm -> Research -> Scout -> Plan -> Cook.",
   "author": "abm-dungtq",
   "license": "MIT",
   "skills": [
-    "./skills/vibe-storm"
+    "./skills/vibe-storm",
+    "./skills/vibe-research",
+    "./skills/vibe-scout",
+    "./skills/vibe-plan",
+    "./skills/vibe-cook"
   ]
 }

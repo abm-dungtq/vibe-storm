@@ -1,0 +1,13 @@
+---
+description: Auto-triggers when researching competitors, market demand, customer objections, or pricing benchmarks
+globs: *
+alwaysApply: false
+---
+
+# Vibe Research Rules for Cursor
+
+When the user asks to research competitors, market trends, or customer pricing tolerance:
+1. Follow the 4-phase methodology: Scope Definition -> Systematic Intelligence (max 5 searches) -> Commercial Synthesis -> Report Generation.
+2. Reverse-engineer top 3 competitors: pricing models, core promises, and public customer complaints.
+3. Uncover the Value Gap and recommended pricing anchor.
+4. Output report in `reports/research-<topic>.md`.

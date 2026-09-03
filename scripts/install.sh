@@ -37,7 +37,7 @@ if [ -d "${HOME}/.gemini" ]; then
 fi
 
 # 3. Install for Cursor (Current Workspace)
-if [ -d "${PWD}/.cursor" ] || [ -f "${PWD}/.cursorrules" ]; then
+if [ "$REPO_DIR" != "$PWD" ] && ([ -d "${PWD}/.cursor" ] || [ -f "${PWD}/.cursorrules" ]); then
     mkdir -p "${PWD}/.cursor/rules"
     cp "${REPO_DIR}/.cursor/rules/vibe-storm.mdc" "${PWD}/.cursor/rules/"
     echo -e "${GREEN}✓ Installed into current Cursor workspace:${NC} ${PWD}/.cursor/rules/vibe-storm.mdc"

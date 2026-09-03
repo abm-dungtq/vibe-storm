@@ -1,59 +1,70 @@
-# Vibe Business Frameworks & Commercial Formulas
+# Business Brainstorm Frameworks & Operational Protocols
 
-Operational frameworks, pricing formulas, and evaluation rubrics used by `vibe-storm`.
+Detailed operational protocols and reference models for `vibe-storm` across the 5-stage agent pipeline (`brainstorm -> research -> scout -> plan -> cook`).
 
 ---
 
-## 1. Business Engine Frameworks (`--biz`)
+## 1. The Bounded Business Contract: Archetype Templates
 
-### The Grand Slam Offer Formula
+### Example A: Productized Service / AI Agency
+- **Outcome:** Secure 10 monthly retainer clients at \$1,500/month (\$15k MRR) for an AI Operations Agency within 60 days.
+- **Constraints:** Solo operator bandwidth (max 15 clients), zero paid advertising budget, delivery must be semi-automated via Make/Zapier.
+- **Non-goals:** Custom enterprise software development, on-site consulting, or 24/7 dedicated support.
+- **Acceptance Criteria:** 10 signed contracts with first month paid via Stripe; onboarding completed in under 24 hours per client.
+
+### Example B: Digital Asset / Course / Community
+- **Outcome:** Generate \$10,000 in launch revenue from a high-value Notion template & video course for real estate agents.
+- **Constraints:** Total build + launch timeline under 14 days; gross profit margin >90%.
+- **Non-goals:** Individual 1-on-1 coaching, physical workbook printing, custom portal development.
+- **Acceptance Criteria:** 100 sales at \$99; refund rate <5%; landing page conversion rate >=3.5%.
+
+---
+
+## 2. Business Failure & Bottleneck Diagnosis (Bug Routing)
+
+When a commercial initiative fails or revenue drops, run this systematic root-cause diagnostic:
+
+```mermaid
+flowchart TD
+    Drop[Revenue or Conversion Drop] --> Scout[Scout Full Customer Journey]
+    Scout --> Step1{CTR < 1.5%?}
+    Step1 -->|Yes| Fix1[Root Cause: Hook / Creative Failure -> Fix Messaging]
+    Step1 -->|No| Step2{Landing Page Conversion < 2%?}
+    Step2 -->|Yes| Fix2[Root Cause: Offer / Social Proof / Friction -> Fix Offer Stack]
+    Step2 -->|No| Step3{Checkout Abandonment > 70%?}
+    Step3 -->|Yes| Fix3[Root Cause: Pricing Shock / Payment Friction -> Fix Checkout]
+    Step3 -->|No| Fix4[Root Cause: Retention / Onboarding / Product Delivery]
+```
+
+### The Diagnostic Matrix
+| Symptom | Suspected Root Cause | Proof Evidence | Corrective Intervention |
+| :--- | :--- | :--- | :--- |
+| Low ad/post engagement | Weak Hook / Boring Angle | Low CTR, 3s dropoff | Test 5 contrarian visual hooks |
+| High traffic, zero sales | Weak Offer or Trust Deficit | High bounce, zero cart adds | Add risk reversal, simplify promise |
+| Carts created, no payment | Payment friction / Price shock | Cart abandon rate >70% | Add local payment (VietQR/SePay), remove hidden fees |
+| High 30-day churn | Mismatched expectations | Refund requests, low login | Improve Day-1 onboarding checklist |
+
+---
+
+## 3. Option Exploration Protocol
+
+When presenting strategic approaches, evaluate on the **Worst-Case Plausible Condition**:
+
+1. **Approach A: Organic Content & Community Loop**
+   - *Load-bearing assumption:* Target buyers consume and share educational video content.
+   - *Fails first when:* Algorithm reach changes or production cadence drops below 5 posts/week.
+2. **Approach B: Direct 1-on-1 Outbound & Strategic DMs**
+   - *Load-bearing assumption:* Prospect profiles are publicly discoverable on LinkedIn/X.
+   - *Fails first when:* Connect rates fall below 15% or reply-to-lead ratio collapses.
+3. **Approach C: Paid Advertising & Rapid Funnel**
+   - *Load-bearing assumption:* Customer Lifetime Value (LTV) supports a CAC >= \$50.
+   - *Fails first when:* Ad platform CPMs spike or offer conversion drops below breakeven.
+
+---
+
+## 4. The Grand Slam Offer & Value Formula
+
 $$\\text{Perceived Value} = \\frac{\\text{Dream Outcome} \\times \\text{Perceived Likelihood of Achievement}}{\\text{Time Delay} \\times \\text{Effort & Sacrifice}}$$
 
-- **Maximize Numerator:** Clear, exciting promise ("Double your inbound client leads") + Strong social proof / guarantees.
-- **Minimize Denominator:** Instant delivery or fast results (<24 hours) + Zero complex setup or technical friction for the buyer.
-
-### The 5 Modern Solopreneur Business Archetypes
-1. **Productized Service:** Turn customized freelance work into a standardized monthly subscription (e.g. "Unlimited Design/Content for \$1,499/mo").
-2. **AI Operations Agency (AI Ops):** Set up and maintain automated AI workflows for small businesses (e.g. CRM automation, chatbot lead capture) on a \$499-\$1,500/mo retainer.
-3. **Digital Assets & Knowledge:** High-margin Notion templates, automated Zapier blueprints, or paid micro-courses.
-4. **Niche E-commerce & Brand:** Targeted physical or POD products catering to an enthusiastic subculture, powered by viral TikTok/Reels marketing.
-5. **Micro-SaaS & AI Tool:** A lean, single-purpose software utility solving one repetitive headache for \$19-\$79/month.
-
-### Day-1 Cashflow Validation Protocols
-1. **The 1:1 Loom Pitch:** Send 20 personalized 60-second video breakdowns to prospects in your target niche. Offer 5 founding spots at 50% discount. Target: 1-2 paid pre-orders before building.
-2. **The Fake Door / Pre-Order Page:** Simple 1-page landing page (Carrd/Framer) with Stripe Checkout or \$1 deposit. If conversion >3%, build immediately.
-
----
-
-## 2. Marketing Engine Frameworks (`--mkt`)
-
-### The Hook-Offer-Angle Matrix
-
-| Angle Type | Hook Formula | Business Example |
-| :--- | :--- | :--- |
-| **Pain-Agitation** | "How much money/time are you losing on [X] every month?" | "You are losing 30% of your Shopify leads because nobody answers at night." |
-| **Dream-Outcome** | "What if you could achieve [Result] without [Hated Task]?" | "Get 5 qualified B2B sales calls a week without sending a single cold email." |
-| **Contrarian** | "Why hiring a [Traditional Role] in 2026 is a costly mistake." | "Why hiring a full-time content manager is burning your startup cash." |
-
----
-
-## 3. Content Engine Frameworks (`--content`)
-
-### The 4 Pillars of Content That Sells
-1. **Pain Agitation (30%):** Detail the exact friction your customer experiences today.
-2. **Transformation & Proof (30%):** Case studies, client breakdowns, metrics, and before-and-after results.
-3. **Behind the Scenes / Authority (25%):** Build-in-public reflections, industry insights, and founder lessons.
-4. **Direct Call to Action (15%):** Clear, low-friction invitation to purchase or book a consultation.
-
----
-
-## 4. Go-To-Market Sprint Engine Frameworks (`--sprint`)
-
-### 48-Hour Commercial Launch Schedule
-
-```
-Hour 00 - 12 | Offer Crafting & 1-Page Sales Page (Framer / Carrd / Gumroad)
-Hour 12 - 24 | Core Deliverable Packaging (Templates / Workflow setup / MVP tool)
-Hour 24 - 36 | Payment Gateway (Stripe / VietQR / SePay) & Client Onboarding Flow
-Hour 36 - 48 | Soft Launch Outreach: DM 50 targeted prospects & announce to network
-```
+- Increase perceived value by guaranteeing the outcome and minimizing user effort.
+- Anchor against high-cost alternatives (\$2,000/mo employee vs \$299/mo automated solution).

@@ -1,73 +1,53 @@
-# Standalone Commercial & Sales Prompt Packs
+# Standalone Business Prompts for the 5-Stage Pipeline
 
-Ready-to-use prompt templates for sales copy, outreach scripts, offer creation, and launch marketing.
+Ready-to-use prompt templates for each stage of the `brainstorm -> research -> scout -> plan -> cook` pipeline.
 
 ---
 
-## 1. The Grand Slam Offer Generator Prompt
-
+## 1. Research Phase Prompt: Competitor & ICP Teardown
 ```text
-You are an expert commercial strategist and offer architect following the principles of \$100M Offers.
-Create an irresistible Grand Slam Offer for: [INSERT BUSINESS IDEA / TARGET AUDIENCE].
-
-Output required:
-1. The Dream Outcome: What is the single most valuable transformation the client experiences?
-2. Perceived Likelihood: What social proof, speed metrics, or guarantees maximize confidence?
-3. Friction Reduction: How do we eliminate client effort, complex software setup, or learning curves?
-4. The Offer Stack:
-   - Primary deliverable
-   - 3 high-value bonuses (templates, SOPs, direct access)
-   - Risk Reversal Guarantee (e.g. "100% refund + \$100 for your time if not satisfied in 14 days")
-5. Pricing & Value Anchor: The price vs the 10x economic value delivered.
+Conduct deep commercial research for [BUSINESS CONCEPT].
+1. Identify 3 direct and 2 indirect competitors.
+2. Extract their pricing tiers, core promises, and public customer complaints/gaps.
+3. Define the Ideal Customer Profile (ICP): Demographics, urgent daily pain point, and budget authority.
 ```
 
 ---
 
-## 2. High-Converting Sales Page Copy Prompt
-
+## 2. Scout Phase Prompt: Funnel Bottleneck & Asset Audit
 ```text
-You are an elite direct-response copywriter. Write a full sales page for: [INSERT OFFER].
-
-Structure:
-1. Above the Fold:
-   - Eyebrow: [Target Niche / Community]
-   - H1 Headline: Clear benefit-driven hook in under 10 words.
-   - Subheadline: How it works + the painful status quo eliminated.
-   - Primary CTA: High-intent button text (e.g. "Claim Your Spot Now").
-   - Risk Reversal: "14-day money back guarantee. Zero risk."
-2. The Agitation Section:
-   - 3 bullet points exposing the hidden financial/time cost of doing it the old way.
-3. The New Mechanism: How your solution achieves results in 1/10 the time.
-4. The Deliverables & Offer Stack: Visual breakdown of what buyers get immediately.
-5. Transparent Pricing Table: Core Package vs Premium Tier.
-6. FAQ: Address the top 5 buying objections directly.
-7. Final CTA Banner.
+Audit the current business state and assets for [BUSINESS INITIATIVE].
+1. Review existing traffic, social channels, and customer touchpoints.
+2. Identify the single biggest drop-off point in the customer journey.
+3. List all reusable assets (testimonials, templates, workflows) that accelerate launch.
 ```
 
 ---
 
-## 3. High-Conversion 1:1 Outreach DM Script
-
+## 3. Plan Phase Prompt: Phased Commercial Roadmap
 ```text
-Hey [Name], saw your recent post about [Specific Challenge / Business Bottleneck].
+Create a phased business execution plan based on this bounded contract:
+[PASTE CONTRACT: OUTCOME, CONSTRAINTS, NON-GOALS, ACCEPTANCE]
 
-Quick question: If you could [Achieve Desired Result in 24 Hours] without [Painful Task], would that be worth a quick look?
-
-I just built a new system that solves this for [Similar Business Category] and am looking for 3 partners to test it at cost in exchange for a candid testimonial.
-
-Would you be open to a 60-second video showing how it works?
+Structure into:
+- Phase 1: Grand Slam Offer & 1-Page Funnel Setup (Days 1-2)
+- Phase 2: Core Deliverable & Asset Packaging (Days 3-4)
+- Phase 3: Payment Gateway & Automated Delivery (Day 5)
+- Phase 4: Customer Acquisition Campaign & First Sales (Days 6-7)
 ```
 
 ---
 
-## 4. Viral Short-Form Video Script Prompt (TikTok / Reels)
+## 4. Cook Phase Prompts: Copy & Content Generation
 
+### High-Converting Sales Copy Prompt
 ```text
-Write a 45-second high-retention video script selling: [INSERT PRODUCT / SERVICE].
+Write complete sales page copy following direct-response principles for: [OFFER NAME].
+Include: Eyebrow, H1 Benefit Headline, Subhead, 3-bullet Pain Agitation, New Mechanism, Offer Stack with 3 Bonuses, Risk Reversal Guarantee, Pricing Table, and 5 FAQs.
+```
 
-Format:
-- 0:00 - 0:03 (Hook): Disruptive visual + contrarian statement.
-- 0:03 - 0:15 (Problem): Relatable agitation of the daily struggle.
-- 0:15 - 0:35 (Solution): Demonstration of the shortcut/results.
-- 0:35 - 0:45 (Call to Action): "Comment 'GROWTH' and I will DM you the exact workflow."
+### 1-on-1 Outbound DM Prompt
+```text
+Write a personalized 60-second outreach DM to [ICP] pitching [VALUE PROPOSITION].
+Rules: No pushy sales pitch, offer a free 60-second Loom breakdown or value audit first.
 ```

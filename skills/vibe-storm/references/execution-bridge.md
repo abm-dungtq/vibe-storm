@@ -1,52 +1,34 @@
-# Standalone Execution Bridge
+# Standalone Commercial Execution Bridge
 
-How to take the output of `vibe-storm` and immediately build it in your favorite AI coding environment.
-
----
-
-## 1. Executing in Cursor IDE
-
-1. Open your project directory in Cursor.
-2. In the Composer window (`Cmd + I` or `Ctrl + I`), set mode to **Agent**.
-3. Paste the generated **48h Sprint Prompt Pack**:
-   ```text
-   You are building the MVP for [Project Name].
-   Read the Vibe Working contract below and implement the single happy path:
-   [PASTE VIBE PITCH & WEDGE]
-   Rules:
-   - Modern Next.js App Router + TypeScript + Tailwind CSS.
-   - Use Lucide icons and shadcn/ui patterns.
-   - No multi-tenancy or complex role auth in this pass.
-   - Deliver a functioning UI with simulated/mocked backend API first.
-   ```
-4. Let Cursor scaffold the files and review the diffs.
+How to turn `vibe-storm` outputs into cash flow using minimal-friction tools.
 
 ---
 
-## 2. Executing in Claude Code
+## 1. Zero-Code Commercial Launch (Recommended for Fast Testing)
 
-Run inside your terminal:
-```bash
-claude "I want to build an MVP for [Project Name]. Here is the 48h sprint spec: [PASTE SPEC]. Please create the project structure and build the core functionality step by step."
-```
-
----
-
-## 3. Executing in Antigravity / Gemini CLI
-
-Within the Antigravity IDE:
-- Create an implementation plan or prompt the model directly with the Vibe Pitch and 48-hour sprint roadmap.
-- Use built-in terminal tools to run `npx create-next-app@latest` and install necessary packages.
+1. **Landing Page / Offer Sheet (Hours 0-12):**
+   - Use **Carrd**, **Framer**, or **Gumroad** to publish the 1-page sales page.
+   - Embed your Grand Slam Offer and Risk Reversal guarantee.
+2. **Payment Collection (Hours 12-24):**
+   - Global: Connect **Stripe Payment Links** or **LemonSqueezy**.
+   - Vietnam Market: Connect **VietQR** or **SePay** for direct instant bank transfers.
+3. **Fulfillment & Onboarding (Hours 24-36):**
+   - For Digital Assets: Auto-deliver via Gumroad, Notion link, or Google Drive.
+   - For Productized Services / AI Ops: Connect a Typeform / Tally form to Slack/Telegram notifications.
 
 ---
 
-## 4. Minimal Payment Integration Recipes
+## 2. AI Automation Stack (For Productized Services & AI Agencies)
 
-### Stripe Checkout (One-time or Subscription)
-- Use standard Next.js route handler (`app/api/checkout/route.ts`).
-- Create a Stripe checkout session with `stripe.checkout.sessions.create()`.
-- Redirect client using URL returned from the session.
+- **Workflow Engine:** Make.com or Zapier.
+- **AI Processing:** OpenAI / Anthropic API connected via webhook.
+- **Client Communication:** Slack Connect or Telegram Bot.
 
-### VietQR / SePay (Vietnam Market)
-- Generate dynamic VietQR images with account number, bank bin, and amount.
-- Set up a webhook endpoint (`app/api/webhooks/sepay/route.ts`) to verify incoming transactions via transaction content regex.
+---
+
+## 3. Software MVP Stack (If Building a Micro-SaaS)
+
+If the business model requires software:
+- Scaffold using **Next.js** + **Tailwind** + **Supabase**.
+- Feed the generated **48h GTM Sprint Prompt** into **Cursor**, **Claude Code**, or **Antigravity**.
+- Focus strictly on the single happy-path task; eliminate all secondary settings in v1.

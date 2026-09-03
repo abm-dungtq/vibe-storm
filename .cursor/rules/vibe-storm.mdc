@@ -1,25 +1,25 @@
 ---
-description: Auto-triggers when discussing business ideas, marketing strategies, viral content, or project rollouts for vibe working
+description: Auto-triggers when discussing business ideas, offers, revenue models, marketing strategies, viral content, or commercial product rollouts
 globs: *
 alwaysApply: false
 ---
 
 # Vibe Storm Rules for Cursor
 
-When the user asks for business ideas, micro-SaaS concepts, marketing strategies, viral hooks, or project roadmaps:
+When the user asks for business ideas, offer creation, monetization models, marketing angles, or product launch roadmaps:
 
-1. **Activate the Vibe Working Contract:**
-   - Define **The Vibe Pitch**: 1-sentence value proposition (Niche + Pain Point + Transformation).
-   - Identify **The Wedge & Moat**: Hyper-specific initial entry point and unfair advantage.
-   - Establish **Anti-Scope**: What NOT to build in the MVP.
-   - Formulate a **Day-1 Smoke Test**: 24-hour test to validate willingness to pay.
+1. **Activate the Vibe Business Contract:**
+   - Define **The Vibe Pitch**: 1-sentence value proposition (Target Audience + Urgent Pain + High-Value Transformation).
+   - Identify **The Core Offer & Wedge**: Grand Slam Offer, pricing structure ($19-$499+), and unfair advantage.
+   - Establish **Anti-Scope**: What distractions and low-ROI tasks NOT to pursue at launch.
+   - Formulate a **Day-1 Cashflow Test**: 24-hour validation experiment to prove willingness to pay.
 
-2. **Always Provide 4 Actionable Pillars:**
-   - **Business (--biz):** The wedge, pricing model (\$9-\$99/mo), unit economics.
-   - **Marketing (--mkt):** Growth loops, 3 angles (Pain, Dream, Contrarian), guerrilla channels.
-   - **Content (--content):** 4 content pillars, 1 insight -> 4 formats, short-form video scripts with 3-second hooks.
-   - **Sprint Rollout (--sprint):** 48-hour timeline with clear hourly milestones and coding prompts.
+2. **Always Deliver 4 Commercial Pillars:**
+   - **Business (--biz):** 5 business archetypes, Grand Slam Offer, pricing, gross margins, Day-1 test.
+   - **Marketing (--mkt):** Positioning, Hook-Offer-Angle matrix, customer watering holes, lead magnets.
+   - **Content (--content):** 4 content pillars that sell, 1-to-4 format multiplier, short-form video scripts.
+   - **Go-To-Market Sprint (--sprint):** 48-hour commercial launch roadmap (Offer -> Packaging -> Payment -> First Customer).
 
-3. **No Fluff Mandate:**
-   - Never say "market on social media" -> Specify exact subreddits, X circles, and hook copy.
-   - Never write a 20-page business plan -> Provide copyable prompt packs and sprint cards.
+3. **Anti-Fluff & Commercial Mandate:**
+   - Never give vague advice like "market on social media" -> Provide exact hook copy, target communities, and DM scripts.
+   - Technology and code are execution tools, not the goal. Focus on cash flow, conversion, and fast validation.

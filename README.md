@@ -2,7 +2,7 @@
 
 # ⚡ Vibe Storm
 
-**The AI-Native Ideation & Execution Engine for Solopreneurs & Vibe Working**
+**The AI-Native Business, Marketing & Go-To-Market Engine for Solopreneurs & Vibe Working**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin%20Compatible-blue)](https://code.claude.com)
@@ -10,9 +10,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/abm-dungtq/vibe-storm/pulls)
 [![Skill Standard](https://img.shields.io/badge/Standard-AgentSkills.io-orange)](https://agentskills.io)
 
-*Turn raw hunches into validated business wedges, high-converting marketing hooks, viral content matrices, and 48-hour execution sprints — with zero corporate fluff.*
+*Turn raw ideas and hunches into validated business models, irresistible commercial offers, high-converting marketing hooks, viral content matrices, and 48-hour launch roadmaps — with zero corporate fluff.*
 
-[Quick Start](#-quick-start) • [The 4 Engines](#-the-4-core-engines) • [Features](#-advanced-features) • [Installation](#-installation-guide) • [Tiếng Việt](#-hướng-dẫn-tiếng-việt)
+[Quick Start](#-quick-start) • [The 4 Engines](#-the-4-core-engines) • [5 Business Archetypes](#-5-modern-business-archetypes) • [Installation](#-installation-guide) • [Tiếng Việt](#-hướng-dẫn-tiếng-việt)
 
 </div>
 
@@ -20,16 +20,30 @@
 
 ## 💡 What is Vibe Storm?
 
-In the **Vibe Coding** and **Solopreneur** era, writing 40-page business plans or spending weeks on market research is dead. 
+In the **Vibe Working** and **Solopreneur** era, spending weeks writing 40-page corporate business plans or getting stuck in technical "analysis paralysis" is dead.
 
-**Vibe Storm** is a standalone, AI-native skill designed to bridge the gap between **raw creative intuition** and **ruthless commercial execution**. Built on the bounded-contract philosophy of engineering brainstorms, it replaces generic AI advice with **ready-to-copy prompt packs**, **smoke test protocols**, and **hour-by-hour sprint roadmaps**.
+**Vibe Storm** is an AI-native ideation and execution engine engineered for **founders, solopreneurs, digital creators, agency owners, and growth operators**. It bridges the gap between creative intuition and **ruthless commercial execution**.
+
+Instead of generic AI advice or developer-only jargon, Vibe Storm delivers **ready-to-use sales copy**, **irresistible Grand Slam Offers**, **outreach DM scripts**, and **hour-by-hour 48-hour Go-To-Market roadmaps**.
 
 ```
-[Raw Idea] ──> /vibe-storm ──> [Vibe Pitch + Wedge] ──> [48h Sprint] ──> [Ship MVP]
+[Raw Idea] ──> /vibe-storm ──> [Grand Slam Offer] ──> [48h GTM Sprint] ──> [First Dollar]
                                      │                         │
-                                     ├──> Growth Loops         └──> Copy Prompt to Cursor
+                                     ├──> Hook-Offer-Angle     └──> Launch 1-Page Funnel
                                      └──> Viral Video Script
 ```
+
+---
+
+## 🏛️ 5 Modern Business Archetypes
+
+Vibe Storm supports all major business models — whether you code, use no-code, or deliver services:
+
+1. **Productized Service & AI Agency:** Package custom skills (design, marketing, automation) into recurring monthly subscriptions ($500 - $2,000/mo).
+2. **Digital Assets & Knowledge:** High-margin templates, automation blueprints, paid communities, or micro-courses ($19 - $199).
+3. **Micro-SaaS & AI Tools:** Lean, single-task software utilities solving one painful friction point ($9 - $79/mo).
+4. **Niche E-commerce & Brand:** Targeted physical or POD products catering to passionate subcultures via viral video marketing.
+5. **High-Ticket Consulting & AI Ops:** Setting up AI workflows and business operations for traditional SMBs ($1,000 - $5,000).
 
 ---
 
@@ -44,20 +58,20 @@ curl -fsSL https://raw.githubusercontent.com/abm-dungtq/vibe-storm/main/scripts/
 ### Direct Usage in Any AI Agent (Claude Code, Cursor, Antigravity)
 
 ```bash
-# Full 4-quadrant ideation canvas
-/vibe-storm "AI Audio Cleaner for Podcasters" --full --html
+# Full 4-quadrant commercial canvas
+/vibe-storm "AI Ops agency helping dentists automate appointment booking" --full --html
 
-# Business model & monetization wedge
-/vibe-storm --biz "Automated customer support agent for Shopify stores"
+# Business model, Grand Slam Offer & Day-1 cashflow test
+/vibe-storm --biz "Productized video editing service for B2B founders"
 
-# Growth marketing hooks & guerrilla channels
-/vibe-storm --mkt "TikTok video analytics Chrome extension"
+# Growth marketing hooks, angles & guerrilla channels
+/vibe-storm --mkt "Notion workspace template for real estate agents"
 
-# Viral content sprint & 3-second hook scripts
-/vibe-storm --content "No-code AI automation course for office workers"
+# Viral content sprint & 3-second hook video scripts
+/vibe-storm --content "1-person digital marketing consultancy"
 
-# 48-hour rapid MVP execution sprint
-/vibe-storm --sprint "Smart bookmark manager with semantic search"
+# 48-hour Go-To-Market launch plan
+/vibe-storm --sprint "Paid newsletter and community for indie hackers"
 ```
 
 ---
@@ -66,10 +80,10 @@ curl -fsSL https://raw.githubusercontent.com/abm-dungtq/vibe-storm/main/scripts/
 
 | Engine | Flag | What It Delivers |
 | :--- | :--- | :--- |
-| **💼 Business** | `--biz` | **The Wedge Strategy**, pricing tier ($9-$99/mo), unit economics hypothesis, and a **24h Day-1 Smoke Test** (Loom concierge or pre-order test). |
-| **📣 Marketing** | `--mkt` | **Growth Loops**, the **Hook-Offer-Angle Matrix** (Pain, Dream, Contrarian), and targeted guerrilla watering holes (Subreddits, X circles). |
-| **🎬 Content** | `--content` | **4 Content Pillars**, 1-to-4 Format Multiplier (Thread, Article, Reel, Carousel), and high-retention short-form video scripts. |
-| **⚡ Sprint Rollout** | `--sprint` | **48-Hour AI-Native Roadmap** (Hours 0-4 Spec, 4-24 MVP, 24-36 Landing/Payment, 36-48 Launch) + ready-to-copy coding prompt packs. |
+| **💼 Business** | `--biz` | **The Wedge & Grand Slam Offer**, pricing strategy, gross margin assumptions, and a **24h Day-1 Cashflow Test** (Loom concierge or pre-order test). |
+| **📣 Marketing** | `--mkt` | **Positioning & Angles**, the **Hook-Offer-Angle Matrix** (Pain, Dream, Contrarian), and targeted customer watering holes (Subreddits, LinkedIn groups). |
+| **🎬 Content** | `--content` | **4 Content Pillars That Sell**, 1-to-4 Format Multiplier (Thread, Article, Reel, Carousel), and high-retention short-form video scripts. |
+| **🚀 GTM Sprint** | `--sprint` | **48-Hour Go-To-Market Roadmap** (Hours 0-12 Offer/Funnel, 12-24 Packaging, 24-36 Payment, 36-48 Launch) + sales copy prompt packs. |
 
 ---
 
@@ -77,25 +91,18 @@ curl -fsSL https://raw.githubusercontent.com/abm-dungtq/vibe-storm/main/scripts/
 
 ### 🖥️ Interactive HTML Vibe Board (`--html`)
 Generate a self-contained, zero-dependency dark-mode HTML dashboard (`vibe-board.html`) featuring:
-- Interactive tabs for Business, Marketing, Content, and Sprint.
-- **One-Click "Copy Prompt"** buttons for immediate copy-pasting into Cursor, Claude, or Midjourney.
-- Interactive sprint checklist with progress tracking.
+- Interactive tabs for Business Canvas, Marketing Matrix, Content Sprint, and 48h GTM Roadmap.
+- **One-Click "Copy Prompt"** buttons for immediate copy-pasting into your sales funnel, email sender, or AI tools.
+- Interactive GTM checklist with progress tracking.
 
 ### 🧙‍♂️ Advisory Supervision (`--advice`)
-Runs an adversarial review challenging:
-- **Unit Economics Reality:** Will AI inference costs crush your gross margins?
-- **Distribution Feasibility:** Are you relying on audience channels you don't own?
-- **Anti-Scope Enforcement:** Cuts any feature bloat threatening the 48-hour sprint.
+Runs an adversarial commercial review challenging:
+- **Unit Economics Reality:** Are your client acquisition costs (CAC) sustainable compared to lifetime value (LTV)?
+- **Offer Strength:** Is the value proposition compelling enough that buyers feel stupid saying no?
+- **Execution Simplicity:** Can you realistically launch this within 48 hours without operational bloat?
 
 ### 🏆 Ultra Verifier Mode (`--ultra`)
-Evaluates 5 competing business angles in parallel:
-1. Conservative B2B SaaS
-2. Viral B2C / Creator Tool
-3. Contrarian AI-Native Workflow
-4. Guerrilla Solopreneur Niche
-5. Productized Service Bridge
-
-Selects the single highest-ROI winner with a comparative ranking scorecard.
+Evaluates 5 competing business angles in parallel (Productized Service, Digital Asset, Micro-SaaS, Niche E-com, AI Ops Agency) and selects the highest ROI angle with a comparative ranking scorecard.
 
 ---
 
@@ -128,7 +135,7 @@ git clone https://github.com/abm-dungtq/vibe-storm.git ~/.gemini/config/skills/v
 ### Standalone Python CLI
 Generate HTML Vibe Boards directly from your terminal:
 ```bash
-python3 scripts/generate_board.py --title "AI Podcast Cleaner" --subtitle "Studio audio in 30s" --output vibe-board.html
+python3 scripts/generate_board.py --title "Productized AI Agency" --subtitle "Done-for-you lead generation" --output vibe-board.html
 open vibe-board.html
 ```
 
@@ -136,40 +143,15 @@ open vibe-board.html
 
 ## 🇻🇳 Hướng Dẫn Tiếng Việt
 
-**Vibe Storm** là công cụ ideation thế hệ mới dành riêng cho anh em làm **Vibe Coding**, **Solopreneur** và **Indie Hacker**:
-1. **Khử Fluff 100%:** Tuyệt đối không đưa ra lời khuyên chung chung kiểu "hãy chạy quảng cáo". Bắt buộc phải có câu hook cụ thể, tệp ngách cụ thể, và prompt sẵn sàng copy.
-2. **Smoke Test 24h:** Cách kiểm chứng xem khách có sẵn sàng rút ví trả tiền không trước khi bạn viết bất kỳ dòng code nào.
-3. **48-Hour Sprint:** Bản đồ phân bổ theo từng khung giờ từ lúc có ý tưởng đến lúc đưa sản phẩm cho 50 người dùng đầu tiên trải nghiệm.
-4. **Handoff Thực Thi:** Prompt sinh ra có thể dán thẳng vào Cursor, Claude Code, hoặc Antigravity để code ngay trong đêm.
+**Vibe Storm** là cỗ máy tạo ý tưởng và thực thi kinh doanh thế hệ mới dành riêng cho **Solopreneur**, **Indie Founder**, **Creator**, và **Dân Vận Hành**:
 
----
-
-## 📂 Repository Anatomy
-
-```text
-vibe-storm/
-├── .claude-plugin/           # Claude Code Plugin Marketplace Manifests
-│   ├── marketplace.json
-│   └── plugin.json
-├── .cursor/rules/            # Cursor IDE Rules
-│   └── vibe-storm.mdc
-├── skills/
-│   └── vibe-storm/
-│       ├── SKILL.md          # Open AgentSkills definition (100% decoupled)
-│       └── references/       # Formulas, frameworks, prompt packs & bridges
-├── templates/
-│   └── vibe-board-template.html
-├── scripts/
-│   ├── install.sh            # Universal installer
-│   ├── quick_validate.py     # Skill format validator
-│   └── generate_board.py     # Standalone HTML board generator
-└── README.md
-```
+1. **Tập trung vào Dòng tiền & Doanh thu (Cashflow-First):** Bất kể ý tưởng là gì, luôn bắt đầu bằng bài toán: Bán cho ai? Giá bao nhiêu? Lời bao nhiêu? Khách hàng nhận được giá trị gì gấp 10 lần số tiền bỏ ra?
+2. **Không phân biệt Code hay Non-Code:** Bạn có thể làm dịch vụ đóng gói (Productized Agency), bán sản phẩm số (Templates, Khóa học), làm thương mại điện tử, hoặc làm phần mềm (Micro-SaaS).
+3. **Smoke Test 24h:** Cách kiểm chứng xem khách có sẵn sàng chuyển khoản đặt cọc không trước khi bạn bỏ hàng tuần ra làm sản phẩm.
+4. **Lộ trình GTM 48h:** Bản đồ từng giờ để có trang bán hàng, cổng thanh toán (Stripe / VietQR / SePay), kịch bản nhắn tin và chốt đơn khách hàng đầu tiên.
 
 ---
 
 ## 🤝 Contributing & License
-
-Contributions are welcome! Please run `python3 scripts/quick_validate.py` before submitting a pull request to ensure all criteria pass.
 
 Distributed under the **MIT License**. Created by [abm-dungtq](https://github.com/abm-dungtq).

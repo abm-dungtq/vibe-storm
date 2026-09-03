@@ -14,22 +14,21 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
     with open(template_path, "r", encoding="utf-8") as f:
         html = f.read()
 
-    # Default sample content if not provided
     biz_content = f"""
     <div class="grid">
       <div class="card">
-        <h3>🎯 The Vibe Pitch</h3>
+        <h3>🎯 The Commercial Pitch</h3>
         <p><strong>{title}</strong></p>
         <p style="color: var(--text-muted);">{subtitle}</p>
       </div>
       <div class="card">
-        <h3>🔪 The Wedge & Moat</h3>
-        <p>Solves 1 high-friction bottleneck in under 60 seconds. High willingness to pay with zero feature bloat.</p>
-        <span class="badge">Pricing: $19 - $49/mo</span>
+        <h3>💎 Grand Slam Offer</h3>
+        <p><strong>Transformation:</strong> High perceived value with guaranteed risk-reversal.</p>
+        <span class="badge">Pricing: $49 - $499/mo</span>
       </div>
       <div class="card">
-        <h3>🧪 Day-1 Smoke Test</h3>
-        <p>Send 20 personalized 60-second Loom DMs to niche founders. Target: 3 pre-orders before writing code.</p>
+        <h3>🧪 Day-1 Cashflow Test</h3>
+        <p>Send 20 personalized 60-second video breakdowns to niche prospects. Goal: 2 paid pre-orders in 24 hours.</p>
       </div>
     </div>
     """
@@ -38,15 +37,15 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
     <div class="grid">
       <div class="card">
         <h3>🪝 Hook-Offer-Angle</h3>
-        <p><strong>Angle:</strong> "Stop spending 4 hours manually editing every weekend."</p>
-        <p><strong>Offer:</strong> 1-click transformation in 30 seconds with 100% money-back guarantee.</p>
+        <p><strong>Pain Angle:</strong> "How much revenue did you leave on the table last month?"</p>
+        <p><strong>Dream Angle:</strong> "Automate client acquisition and save 15 hours a week."</p>
       </div>
       <div class="card">
-        <h3>📍 Watering Holes</h3>
+        <h3>📍 Target Watering Holes</h3>
         <ul style="color: var(--text-muted); padding-left: 1.2rem;">
-          <li>Relevant niche subreddits (Top 3)</li>
-          <li>X / Twitter Indie Hacker community</li>
-          <li>Targeted Discord & Telegram operator groups</li>
+          <li>Niche industry subreddits & Facebook operator groups</li>
+          <li>Targeted LinkedIn founders & decision-makers</li>
+          <li>Active Slack/Discord professional communities</li>
         </ul>
       </div>
     </div>
@@ -55,18 +54,18 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
     content_content = """
     <div class="grid">
       <div class="card">
-        <h3>🎬 Short-Form Video Script</h3>
-        <p><strong>Hook (0-3s):</strong> "If you're still doing [X] by hand in 2026, stop."</p>
+        <h3>🎬 Short-Form Video Script (TikTok/Reels)</h3>
+        <p><strong>3-Second Hook:</strong> "If you're still doing this manual task in 2026, you're burning cash."</p>
         <div class="prompt-box">
-          <button class="copy-btn" onclick="copySnippet(this)">Copy Prompt</button>
-          <pre>Generate a 45-second high-retention video script showing before-and-after workflow with 3-second visual hook.</pre>
+          <button class="copy-btn" onclick="copySnippet(this)">Copy Script Prompt</button>
+          <pre>Generate a 45-second high-retention video script showing before-and-after client results with direct CTA to comment for the link.</pre>
         </div>
       </div>
       <div class="card">
-        <h3>🧵 Viral Thread Outline</h3>
+        <h3>🧵 Long-form Authority Post</h3>
         <div class="prompt-box">
-          <button class="copy-btn" onclick="copySnippet(this)">Copy Prompt</button>
-          <pre>Write a 5-tweet build-in-public launch thread detailing problem, AI solution, tech stack, and waitlist CTA.</pre>
+          <button class="copy-btn" onclick="copySnippet(this)">Copy Post Prompt</button>
+          <pre>Write a high-converting LinkedIn/Facebook post exposing the hidden costs of the old way and introducing the new framework.</pre>
         </div>
       </div>
     </div>
@@ -74,16 +73,16 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
 
     sprint_content = """
     <div class="card">
-      <h3>⚡ 48-Hour AI-Native Sprint Checklist</h3>
+      <h3>🚀 48-Hour Go-To-Market (GTM) Checklist</h3>
       <ul class="checklist">
-        <li><input type="checkbox"> <span><strong>Hours 0-4:</strong> 1-page functional spec & Stitch/v0 wireframe mockup</span></li>
-        <li><input type="checkbox"> <span><strong>Hours 4-24:</strong> Core functional happy-path MVP in Cursor/Claude Code</span></li>
-        <li><input type="checkbox"> <span><strong>Hours 24-36:</strong> Landing page copy + Stripe/SePay checkout</span></li>
-        <li><input type="checkbox"> <span><strong>Hours 36-48:</strong> Deploy to Vercel/Fly.io & soft launch to 50 beta testers</span></li>
+        <li><input type="checkbox"> <span><strong>Hours 0-12:</strong> Finalize Grand Slam Offer & publish 1-page sales page (Framer/Carrd/Gumroad)</span></li>
+        <li><input type="checkbox"> <span><strong>Hours 12-24:</strong> Package core deliverable / automated workflow / asset</span></li>
+        <li><input type="checkbox"> <span><strong>Hours 24-36:</strong> Connect payment gateway (Stripe/VietQR/SePay) & onboarding automation</span></li>
+        <li><input type="checkbox"> <span><strong>Hours 36-48:</strong> Soft launch outreach to 50 warm prospects & secure first paying customer</span></li>
       </ul>
       <div class="prompt-box" style="margin-top: 1.5rem;">
-        <button class="copy-btn" onclick="copySnippet(this)">Copy Coding Prompt</button>
-        <pre>You are an expert full-stack developer building an ultra-lean MVP in Next.js + Tailwind. Implement only the core happy path for: """ + title + """</pre>
+        <button class="copy-btn" onclick="copySnippet(this)">Copy Sales Copy Prompt</button>
+        <pre>You are an expert copywriter. Write high-converting sales page copy and cold outreach DMs for: """ + title + """</pre>
       </div>
     </div>
     """
@@ -102,8 +101,8 @@ def generate_html_board(title, subtitle, output_file="vibe-board.html"):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate interactive HTML Vibe Board")
-    parser.add_argument("--title", default="AI Audio Cleaner for Podcasters", help="Project / Pitch Title")
-    parser.add_argument("--subtitle", default="Turn raw recordings into studio-mastered sound in 30 seconds", help="Subtitle / Value Prop")
+    parser.add_argument("--title", default="Productized AI Ops Agency", help="Project / Pitch Title")
+    parser.add_argument("--subtitle", default="Turn manual workflows into automated client acquisition systems", help="Subtitle / Value Prop")
     parser.add_argument("--output", default="vibe-board.html", help="Output HTML file path")
     args = parser.parse_args()
 
